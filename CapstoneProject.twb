@@ -1,0 +1,2654 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Capstone (Capstone)' inline='true' name='federated.16xzjq00ucvo4j19ja68t139j7rj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Capstone' name='excel-direct.158r9570oq4zv31d2rrj91lzdvbo'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jttyl/Code/SavvyCoders/Activities/Capstone.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Capstone 2' name='excel-direct.1ht1wia1padyw01cbemhe0z03p1h'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/jttyl/Code/SavvyCoders/Activities/Capstone 2.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.158r9570oq4zv31d2rrj91lzdvbo' name='Capstone' table='[Capstone$]' type='table'>
+          <columns gridOrigin='A1:Y131:no:A1:Y131:0' header='yes' outcome='6'>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='string' name='School' ordinal='1' />
+            <column datatype='string' name='Conference' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Games' ordinal='4' />
+            <column datatype='integer' name='Win' ordinal='5' />
+            <column datatype='integer' name='Loss' ordinal='6' />
+            <column datatype='real' name='Win Percentage' ordinal='7' />
+            <column datatype='integer' name='Off Rank' ordinal='8' />
+            <column datatype='integer' name='Off Plays' ordinal='9' />
+            <column datatype='integer' name='Off Yards' ordinal='10' />
+            <column datatype='integer' name='Off TDs' ordinal='11' />
+            <column datatype='real' name='Off Yards per Game' ordinal='12' />
+            <column datatype='integer' name='Penalty Rank' ordinal='13' />
+            <column datatype='integer' name='Passing Off Rank' ordinal='14' />
+            <column datatype='real' name='Pass Yards Per Game' ordinal='15' />
+            <column datatype='integer' name='Redzone Off Rank' ordinal='16' />
+            <column datatype='integer' name='Rushing Off Rank' ordinal='17' />
+            <column datatype='real' name='Rushing Yards per Game' ordinal='18' />
+            <column datatype='integer' name='Scoring Off Rank' ordinal='19' />
+            <column datatype='integer' name='Touchdowns' ordinal='20' />
+            <column datatype='integer' name='Total Points' ordinal='21' />
+            <column datatype='real' name='Points Per Game' ordinal='22' />
+            <column datatype='integer' name='Time of Possession Rank' ordinal='23' />
+            <column datatype='integer' name='Turnover Rank' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='excel-direct.158r9570oq4zv31d2rrj91lzdvbo' name='Capstone' table='[Capstone$]' type='table'>
+            <columns gridOrigin='A1:Y131:no:A1:Y131:0' header='yes' outcome='6'>
+              <column datatype='string' name='Team' ordinal='0' />
+              <column datatype='string' name='School' ordinal='1' />
+              <column datatype='string' name='Conference' ordinal='2' />
+              <column datatype='string' name='State' ordinal='3' />
+              <column datatype='integer' name='Games' ordinal='4' />
+              <column datatype='integer' name='Win' ordinal='5' />
+              <column datatype='integer' name='Loss' ordinal='6' />
+              <column datatype='real' name='Win Percentage' ordinal='7' />
+              <column datatype='integer' name='Off Rank' ordinal='8' />
+              <column datatype='integer' name='Off Plays' ordinal='9' />
+              <column datatype='integer' name='Off Yards' ordinal='10' />
+              <column datatype='integer' name='Off TDs' ordinal='11' />
+              <column datatype='real' name='Off Yards per Game' ordinal='12' />
+              <column datatype='integer' name='Penalty Rank' ordinal='13' />
+              <column datatype='integer' name='Passing Off Rank' ordinal='14' />
+              <column datatype='real' name='Pass Yards Per Game' ordinal='15' />
+              <column datatype='integer' name='Redzone Off Rank' ordinal='16' />
+              <column datatype='integer' name='Rushing Off Rank' ordinal='17' />
+              <column datatype='real' name='Rushing Yards per Game' ordinal='18' />
+              <column datatype='integer' name='Scoring Off Rank' ordinal='19' />
+              <column datatype='integer' name='Touchdowns' ordinal='20' />
+              <column datatype='integer' name='Total Points' ordinal='21' />
+              <column datatype='real' name='Points Per Game' ordinal='22' />
+              <column datatype='integer' name='Time of Possession Rank' ordinal='23' />
+              <column datatype='integer' name='Turnover Rank' ordinal='24' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1ht1wia1padyw01cbemhe0z03p1h' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:B131:no:A1:B131:0' header='yes' outcome='6'>
+              <column datatype='string' name='School' ordinal='0' />
+              <column datatype='string' name='State' ordinal='1' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Conference]' value='[Capstone].[Conference]' />
+          <map key='[Games]' value='[Capstone].[Games]' />
+          <map key='[Loss]' value='[Capstone].[Loss]' />
+          <map key='[Off Plays]' value='[Capstone].[Off Plays]' />
+          <map key='[Off Rank]' value='[Capstone].[Off Rank]' />
+          <map key='[Off TDs]' value='[Capstone].[Off TDs]' />
+          <map key='[Off Yards per Game]' value='[Capstone].[Off Yards per Game]' />
+          <map key='[Off Yards]' value='[Capstone].[Off Yards]' />
+          <map key='[Pass Yards Per Game]' value='[Capstone].[Pass Yards Per Game]' />
+          <map key='[Passing Off Rank]' value='[Capstone].[Passing Off Rank]' />
+          <map key='[Penalty Rank]' value='[Capstone].[Penalty Rank]' />
+          <map key='[Points Per Game]' value='[Capstone].[Points Per Game]' />
+          <map key='[Redzone Off Rank]' value='[Capstone].[Redzone Off Rank]' />
+          <map key='[Rushing Off Rank]' value='[Capstone].[Rushing Off Rank]' />
+          <map key='[Rushing Yards per Game]' value='[Capstone].[Rushing Yards per Game]' />
+          <map key='[School (Sheet1)]' value='[Sheet1].[School]' />
+          <map key='[School]' value='[Capstone].[School]' />
+          <map key='[Scoring Off Rank]' value='[Capstone].[Scoring Off Rank]' />
+          <map key='[State (Sheet1)]' value='[Sheet1].[State]' />
+          <map key='[State]' value='[Capstone].[State]' />
+          <map key='[Team]' value='[Capstone].[Team]' />
+          <map key='[Time of Possession Rank]' value='[Capstone].[Time of Possession Rank]' />
+          <map key='[Total Points]' value='[Capstone].[Total Points]' />
+          <map key='[Touchdowns]' value='[Capstone].[Touchdowns]' />
+          <map key='[Turnover Rank]' value='[Capstone].[Turnover Rank]' />
+          <map key='[Win Percentage]' value='[Capstone].[Win Percentage]' />
+          <map key='[Win]' value='[Capstone].[Win]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y131:no:A1:Y131:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B131:no:A1:B131:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[School]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>School</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Conference]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Conference</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Games</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Win</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Win]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Win</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Loss]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Loss</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Win Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Win Percentage]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Win Percentage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Off Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Off Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Off Rank</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Off Plays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Off Plays]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Off Plays</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Off Yards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Off Yards]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Off Yards</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Off TDs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Off TDs]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Off TDs</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Off Yards per Game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Off Yards per Game]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Off Yards per Game</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalty Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalty Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Penalty Rank</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passing Off Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Passing Off Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Passing Off Rank</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pass Yards Per Game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pass Yards Per Game]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Pass Yards Per Game</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Redzone Off Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Redzone Off Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Redzone Off Rank</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rushing Off Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rushing Off Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Rushing Off Rank</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rushing Yards per Game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rushing Yards per Game]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Rushing Yards per Game</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scoring Off Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Scoring Off Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Scoring Off Rank</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Touchdowns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Touchdowns]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Touchdowns</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Points]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Total Points</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Points Per Game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Points Per Game]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Points Per Game</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time of Possession Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time of Possession Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Time of Possession Rank</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Turnover Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Turnover Rank]</local-name>
+            <parent-name>[Capstone]</parent-name>
+            <remote-alias>Turnover Rank</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>School</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[School (Sheet1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>School</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State (Sheet1)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Conference]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Off Yards per Game]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Redzone Off Rank]' role='measure' type='quantitative' />
+      <column datatype='string' name='[School]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State (Sheet1)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Win]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Capstone' datatype='table' name='[__tableau_internal_object_id__].[Capstone_61891537867A4E0BA1681824D2CB770D]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]' role='measure' type='quantitative' />
+      <column-instance column='[Off Yards per Game]' derivation='Attribute' name='[attr:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Off Yards per Game]' derivation='Avg' name='[avg:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Redzone Off Rank]' derivation='Avg' name='[avg:Redzone Off Rank:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Win Percentage]' derivation='Avg' name='[avg:Win Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Win]' derivation='Avg' name='[avg:Win:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Conference]' derivation='None' name='[none:Conference:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Off Yards per Game]' derivation='None' name='[none:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Off Yards per Game]' derivation='Sum' name='[sum:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Redzone Off Rank]' derivation='Sum' name='[sum:Redzone Off Rank:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Win Percentage]' derivation='Sum' name='[sum:Win Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Win]' derivation='Sum' name='[sum:Win:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Conference,School)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Conference:nk]' />
+          <groupfilter function='level-members' level='[none:School:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (Conference,School)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Conference:nk]' />
+          <groupfilter function='level-members' level='[none:School:nk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/jttyl/AppData/Local/Temp/TableauTemp/#TableauTemp_0w2si5f1q2vb1817w0tdw1ue57mn.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/15/2025 01:59:19 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Capstone_61891537867A4E0BA1681824D2CB770D' table='[Extract].[Capstone_61891537867A4E0BA1681824D2CB770D]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='Capstone_61891537867A4E0BA1681824D2CB770D' table='[Extract].[Capstone_61891537867A4E0BA1681824D2CB770D]' type='table' />
+            <relation name='Sheet1_F27F9B2A72484DB79E4C42FFD22DD606' table='[Extract].[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Conference]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Conference]' />
+            <map key='[Games]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Games]' />
+            <map key='[Loss]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Loss]' />
+            <map key='[Off Plays]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Off Plays]' />
+            <map key='[Off Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Off Rank]' />
+            <map key='[Off TDs]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Off TDs]' />
+            <map key='[Off Yards per Game]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Off Yards per Game]' />
+            <map key='[Off Yards]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Off Yards]' />
+            <map key='[Pass Yards Per Game]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Pass Yards Per Game]' />
+            <map key='[Passing Off Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Passing Off Rank]' />
+            <map key='[Penalty Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Penalty Rank]' />
+            <map key='[Points Per Game]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Points Per Game]' />
+            <map key='[Redzone Off Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Redzone Off Rank]' />
+            <map key='[Rushing Off Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Rushing Off Rank]' />
+            <map key='[Rushing Yards per Game]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Rushing Yards per Game]' />
+            <map key='[School (Sheet1)]' value='[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606].[School]' />
+            <map key='[School]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[School]' />
+            <map key='[Scoring Off Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Scoring Off Rank]' />
+            <map key='[State (Sheet1)]' value='[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606].[State]' />
+            <map key='[State]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[State]' />
+            <map key='[Team]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Team]' />
+            <map key='[Time of Possession Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Time of Possession Rank]' />
+            <map key='[Total Points]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Total Points]' />
+            <map key='[Touchdowns]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Touchdowns]' />
+            <map key='[Turnover Rank]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Turnover Rank]' />
+            <map key='[Win Percentage]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Win Percentage]' />
+            <map key='[Win]' value='[Capstone_61891537867A4E0BA1681824D2CB770D].[Win]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Team]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Team</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Capstone</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>130</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>School</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Capstone</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conference</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Conference]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Conference</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Capstone</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Capstone</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Games</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Games]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Games</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Win</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Win]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Win</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Loss</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Loss]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Loss</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Win Percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Win Percentage]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Win Percentage</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Capstone</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Off Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Off Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Off Rank</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>130</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Off Plays</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Off Plays]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Off Plays</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>110</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Off Yards</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Off Yards]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Off Yards</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>126</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Off TDs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Off TDs]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Off TDs</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>46</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Off Yards per Game</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Off Yards per Game]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Off Yards per Game</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Capstone</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>128</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Penalty Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Penalty Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Penalty Rank</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>120</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Passing Off Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Passing Off Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Passing Off Rank</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>127</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pass Yards Per Game</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Pass Yards Per Game]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Pass Yards Per Game</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Capstone</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>125</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Redzone Off Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Redzone Off Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Redzone Off Rank</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>99</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rushing Off Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rushing Off Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Rushing Off Rank</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>128</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rushing Yards per Game</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rushing Yards per Game]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Rushing Yards per Game</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Capstone</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>124</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Scoring Off Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Scoring Off Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Scoring Off Rank</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>117</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Touchdowns</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Touchdowns]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Touchdowns</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Points</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Points]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Total Points</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Points Per Game</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Points Per Game]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Points Per Game</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Capstone</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time of Possession Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Time of Possession Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Time of Possession Rank</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>130</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Turnover Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Turnover Rank]</local-name>
+              <parent-name>[Capstone_61891537867A4E0BA1681824D2CB770D]</parent-name>
+              <remote-alias>Turnover Rank</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Capstone</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Capstone_61891537867A4E0BA1681824D2CB770D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>School</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[School (Sheet1)]</local-name>
+              <parent-name>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</parent-name>
+              <remote-alias>School</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>129</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State (Sheet1)]</local-name>
+              <parent-name>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[attr:Off Yards per Game:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:Off Yards per Game:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Redzone Off Rank:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Redzone Off Rank:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Capstone' id='Capstone_61891537867A4E0BA1681824D2CB770D'>
+            <properties context=''>
+              <relation connection='excel-direct.158r9570oq4zv31d2rrj91lzdvbo' name='Capstone' table='[Capstone$]' type='table'>
+                <columns gridOrigin='A1:Y131:no:A1:Y131:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Team' ordinal='0' />
+                  <column datatype='string' name='School' ordinal='1' />
+                  <column datatype='string' name='Conference' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='Games' ordinal='4' />
+                  <column datatype='integer' name='Win' ordinal='5' />
+                  <column datatype='integer' name='Loss' ordinal='6' />
+                  <column datatype='real' name='Win Percentage' ordinal='7' />
+                  <column datatype='integer' name='Off Rank' ordinal='8' />
+                  <column datatype='integer' name='Off Plays' ordinal='9' />
+                  <column datatype='integer' name='Off Yards' ordinal='10' />
+                  <column datatype='integer' name='Off TDs' ordinal='11' />
+                  <column datatype='real' name='Off Yards per Game' ordinal='12' />
+                  <column datatype='integer' name='Penalty Rank' ordinal='13' />
+                  <column datatype='integer' name='Passing Off Rank' ordinal='14' />
+                  <column datatype='real' name='Pass Yards Per Game' ordinal='15' />
+                  <column datatype='integer' name='Redzone Off Rank' ordinal='16' />
+                  <column datatype='integer' name='Rushing Off Rank' ordinal='17' />
+                  <column datatype='real' name='Rushing Yards per Game' ordinal='18' />
+                  <column datatype='integer' name='Scoring Off Rank' ordinal='19' />
+                  <column datatype='integer' name='Touchdowns' ordinal='20' />
+                  <column datatype='integer' name='Total Points' ordinal='21' />
+                  <column datatype='real' name='Points Per Game' ordinal='22' />
+                  <column datatype='integer' name='Time of Possession Rank' ordinal='23' />
+                  <column datatype='integer' name='Turnover Rank' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Capstone_61891537867A4E0BA1681824D2CB770D' table='[Extract].[Capstone_61891537867A4E0BA1681824D2CB770D]' type='table' />
+            </properties>
+          </object>
+          <object caption='Sheet1' id='Sheet1_F27F9B2A72484DB79E4C42FFD22DD606'>
+            <properties context=''>
+              <relation connection='excel-direct.1ht1wia1padyw01cbemhe0z03p1h' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B131:no:A1:B131:0' header='yes' outcome='6'>
+                  <column datatype='string' name='School' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Sheet1_F27F9B2A72484DB79E4C42FFD22DD606' table='[Extract].[Sheet1_F27F9B2A72484DB79E4C42FFD22DD606]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[School]' />
+              <expression op='[School (Sheet1)]' />
+            </expression>
+            <first-end-point object-id='Capstone_61891537867A4E0BA1681824D2CB770D' />
+            <second-end-point object-id='Sheet1_F27F9B2A72484DB79E4C42FFD22DD606' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Big Ten Yards Per Game'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='string' name='[Conference]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Off Yards per Game]' role='measure' type='quantitative' />
+            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Off Yards per Game]' derivation='Avg' name='[avg:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Avg' name='[avg:Win Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Conference]' derivation='None' name='[none:Conference:nk]' pivot='key' type='nominal' />
+            <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Off Yards per Game]' derivation='Sum' name='[sum:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Sum' name='[sum:Win Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:Conference:nk]'>
+            <groupfilter function='member' level='[none:Conference:nk]' member='&quot;(Big Ten)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:Conference:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' field-type='quantitative' max='658.26620689655169' min='200.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' />
+              <text column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]' />
+              <size column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' />
+              <text column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' />
+              <size column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' />
+              <text column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk] + [federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk])</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]</cols>
+      </table>
+      <simple-id uuid='{29035CD9-A479-4826-A5FE-F8B0F3534B0D}' />
+    </worksheet>
+    <worksheet name='Off Yards Per State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='real' name='[Off Yards per Game]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State (Sheet1)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Off Yards per Game]' derivation='Avg' name='[avg:Off Yards per Game:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State (Sheet1)]' derivation='None' name='[none:State (Sheet1):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]' field-type='quantitative' max='-5928207.0548561085' min='-15979411.157366186' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]' field-type='quantitative' max='8043337.7320261765' min='564377.2033620493' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d1e8d1</color>
+                <color>#b3e0b3</color>
+                <color>#96d796</color>
+                <color>#7ccf7c</color>
+                <color>#63c663</color>
+                <color>#4bbe4b</color>
+                <color>#36b536</color>
+                <color>#22ad22</color>
+                <color>#10a410</color>
+                <color>#009c00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:State (Sheet1):nk]' />
+              <color column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' />
+              <geometry column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{0C8A5489-507C-4684-98F7-E975095BE5C5}' />
+    </worksheet>
+    <worksheet name='Time of Possession'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Time of Possession Rank]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Time of Possession Rank]' derivation='Sum' name='[sum:Time of Possession Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Sum' name='[sum:Win Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:School:nk]' />
+              <groupfilter function='member' level='[none:School:nk]' member='&quot;Miami&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Time of Possession Rank:qk]</cols>
+      </table>
+      <simple-id uuid='{E5218C1D-A27D-43AF-A06E-51B6F7C06CE0}' />
+    </worksheet>
+    <worksheet name='Turnover Rank'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Turnover Rank]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Turnover Rank]' derivation='Sum' name='[sum:Turnover Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Sum' name='[sum:Win Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:School:nk]' />
+              <groupfilter function='member' level='[none:School:nk]' member='&quot;Miami&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Turnover Rank:qk]</cols>
+      </table>
+      <simple-id uuid='{5DC5B851-4940-47A1-81D5-28202348678F}' />
+    </worksheet>
+    <worksheet name='Win % by State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='string' name='[State (Sheet1)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Avg' name='[avg:Win Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State (Sheet1)]' derivation='None' name='[none:State (Sheet1):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]' field-type='quantitative' max='-5392571.9174884073' min='-16448896.100745352' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]' field-type='quantitative' max='8617451.9908977058' min='390595.65454659122' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]' />
+              <lod column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:State (Sheet1):nk]' />
+              <geometry column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{1272D3BD-5B29-4EB9-94A2-98003ED7C445}' />
+    </worksheet>
+    <worksheet name='Win Percentage based off Pts and Red Zone Rank (Min. 500 PTs)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Capstone (Capstone)' name='federated.16xzjq00ucvo4j19ja68t139j7rj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16xzjq00ucvo4j19ja68t139j7rj'>
+            <column datatype='integer' name='[Redzone Off Rank]' role='measure' type='quantitative' />
+            <column datatype='string' name='[School]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Points]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Win Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Redzone Off Rank]' derivation='Avg' name='[avg:Redzone Off Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Points]' derivation='Avg' name='[avg:Total Points:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[School]' derivation='None' name='[none:School:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Points]' derivation='Sum' name='[sum:Total Points:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Win Percentage]' derivation='Sum' name='[sum:Win Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Total Points:qk]' included-values='in-range'>
+            <min>176.0</min>
+            <max>619.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:School:nk]' />
+              <groupfilter function='member' level='[none:School:nk]' member='&quot;Miami&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Total Points:qk]' included-values='in-range'>
+            <min>500</min>
+            <max>768</max>
+          </filter>
+          <filter class='quantitative' column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]' included-values='in-range'>
+            <min>0.083000000000000004</min>
+            <max>1.0</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Total Points:qk]</column>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Total Points:qk]</column>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]</column>
+            <column>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Total Points:qk]' />
+              <size column='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Redzone Off Rank:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]</rows>
+        <cols>[federated.16xzjq00ucvo4j19ja68t139j7rj].[none:School:nk]</cols>
+      </table>
+      <simple-id uuid='{40839DDB-8505-4550-8116-6E1E9B5A7AF8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Background'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run fontalignment='1' fontsize='15'>Important Terms </run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontsize='15'>-Redzone</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='15'>-Conferences</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='15'>-R^2</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='15'>-P-value</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='15'>Important Terms </run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontsize='15'>-Redzone</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='15'>-Conferences</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='15'>-R^2</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='15'>-P-value</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9C716831-14DF-4BBE-8BD6-4B3580BBD258}' />
+    </dashboard>
+    <dashboard name='Capstone Presentation' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='162' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='9' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+              <zone fixed-size='139' h='14419' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='830' />
+              <zone h='83921' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15249'>
+                <flipboard active-id='5' nav-type='caption' show-nav-arrows='true'>
+                  <story-points>
+                    <story-point caption='Title' captured-sheet='Title' id='1'>
+                      <capturedDeltas>
+                        <dashboard name='Title'>
+                          <zone id='3'>
+                            <formatted-text>
+                              <run fontalignment='1' fontsize='14'>What Makes a Successful College Football Offense?</run>
+                              <run fontalignment='1'>Æ&#10;&#10;</run>
+                              <run fontalignment='1' fontsize='14'>By: Jackson Tyler</run>
+                            </formatted-text>
+                          </zone>
+                        </dashboard>
+                      </capturedDeltas>
+                    </story-point>
+                    <story-point caption='Introduction' captured-sheet='Introducton' id='8' />
+                    <story-point caption='Background' captured-sheet='Background' id='9'>
+                      <capturedDeltas>
+                        <dashboard name='Background'>
+                          <zone id='3'>
+                            <formatted-text>
+                              <run fontalignment='1' fontsize='15'>Important Terms </run>
+                              <run fontalignment='1'>Æ&#10;&#10;</run>
+                              <run fontalignment='1' fontsize='15'>-Redzone</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontsize='15'>-Conferences</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontsize='15'>-R^2</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                            </formatted-text>
+                          </zone>
+                        </dashboard>
+                      </capturedDeltas>
+                    </story-point>
+                    <story-point caption='Factors Observed' captured-sheet='Factors Observed' id='10' />
+                    <story-point caption='Big Ten Yards Per Game vs Win %' captured-sheet='Big Ten Yards Per Game' id='2' />
+                    <story-point caption='Breakdown By State' captured-sheet='Map Dashboard' id='3'>
+                      <capturedDeltas>
+                        <worksheet name='Off Yards Per State'>
+                          <style delta-type='added'>
+                            <style-rule element='axis'>
+                              <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]' field-type='quantitative' max='6846003.4070044421' min='1807076.3418758353' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]' field-type='quantitative' max='-7377896.4388187435' min='-14792773.208467785' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                            </style-rule>
+                          </style>
+                        </worksheet>
+                        <worksheet name='Win % by State'>
+                          <style delta-type='added'>
+                            <style-rule element='axis'>
+                              <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Latitude (generated)]' field-type='quantitative' max='6583158.9024394592' min='-455736.87346168165' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                              <encoding attr='space' class='0' field='[federated.16xzjq00ucvo4j19ja68t139j7rj].[Longitude (generated)]' field-type='quantitative' max='-5023001.459079884' min='-14706689.141082473' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                            </style-rule>
+                          </style>
+                        </worksheet>
+                      </capturedDeltas>
+                    </story-point>
+                    <story-point caption='Time of Possession' captured-sheet='Time of Possession' id='4' />
+                    <story-point caption='Turnover Rank' captured-sheet='Turnover Rank' id='7' />
+                    <story-point caption='Win Percentage based off Points and Red Zone Rank (Min. 500 PTs)' captured-sheet='Win Percentage based off Pts and Red Zone Rank (Min. 500 PTs)' id='6' />
+                    <story-point caption='Key Takeaways' captured-sheet='Takeaways' id='11'>
+                      <capturedDeltas>
+                        <dashboard name='Takeaways'>
+                          <zone id='3'>
+                            <formatted-text>
+                              <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='16'>Takeaways:</run>
+                              <run fontalignment='1'>Æ&#10;&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Offense partial affect</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Location does not afect</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Time of Possession did not really affect</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Turnover Rank affect</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Points are not factor</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Red Zone Rank is not a factor</run>
+                              <run fontalignment='1'>Æ&#10;</run>
+                            </formatted-text>
+                          </zone>
+                        </dashboard>
+                      </capturedDeltas>
+                    </story-point>
+                    <story-point caption='Problems and Code' captured-sheet='Problems and Code' id='13' />
+                    <story-point caption='How Did the Class Help Me?' captured-sheet='How the Class helped me' id='12' />
+                    <story-point caption='The End' captured-sheet='End' id='5'>
+                      <capturedDeltas>
+                        <dashboard name='End'>
+                          <zone id='3'>
+                            <formatted-text>
+                              <run bold='true' fontalignment='1' fontcolor='#f1ce63' fontsize='24' underline='true'>Thank you!</run>
+                            </formatted-text>
+                          </zone>
+                        </dashboard>
+                      </capturedDeltas>
+                    </story-point>
+                  </story-points>
+                </flipboard>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{7A0A924A-FBC6-4D3F-B801-BE935D071A69}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='End'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run fontalignment='1'>Thank you!</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='13' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run fontalignment='1'>Thank you!</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C0217D57-EF8D-4287-9A7B-04FCA644DA18}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Factors Observed'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>Factors:</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>-Total Offensive Yards</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Conference </run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>- State</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Turnover Rank</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Total Points</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Time of Possession</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>Factors:</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>-Total Offensive Yards</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Conference </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>- State</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Turnover Rank</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Total Points</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#499894' fontsize='20'>- Time of Possession</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5AE5AD38-5145-4FC7-BD7E-BB4134E39949}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='How the Class helped me'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-orientation' id='dash-text_3' value='0' />
+          <format attr='vertical-align' id='dash-text_3' value='center' />
+          <format attr='text-align' id='dash-text_3' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run bold='true' fontcolor='#499894' fontname='Tableau Medium' fontsize='20'>Things I have learned:</run>
+              <run>Æ&#10;&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-Some Python Functions</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-SQL                                                 </run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>- Certain Tableau Graphs</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>- Agile                                              </run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>          - Application to capstone</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-GitHub                                              </run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#499894' fontname='Tableau Medium' fontsize='20'>Things I have learned:</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-Some Python Functions</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-SQL                                                 </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>- Certain Tableau Graphs</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>- Agile                                              </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>          - Application to capstone</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#499894' fontname='Tableau Medium' fontsize='15'>-GitHub                                              </run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8C3CEE27-3607-4509-96D7-3CBC6C335B31}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Introducton'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49031' id='3' param='C:/Users/jttyl/Downloads/Capstone IU Picture.png' type-v2='bitmap' w='97538' x='1231' y='969'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49031' id='5' param='C:/Users/jttyl/OneDrive/Pictures/Screenshots/Screenshot 2024-09-17 204718.png' type-v2='bitmap' w='97538' x='1231' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='10' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49031' id='3' is-fixed='true' param='C:/Users/jttyl/Downloads/Capstone IU Picture.png' type-v2='bitmap' w='97538' x='1231' y='969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49031' id='5' is-fixed='true' param='C:/Users/jttyl/OneDrive/Pictures/Screenshots/Screenshot 2024-09-17 204718.png' type-v2='bitmap' w='97538' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{BDA64795-51C5-4D4D-9824-D6C19E87112C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Map Dashboard'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98062' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='969'>
+            <zone h='98062' id='5' type-v2='layout-basic' w='72923' x='1231' y='969'>
+              <zone h='49031' id='3' name='Off Yards Per State' w='72923' x='1231' y='969'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49031' id='9' name='Win % by State' w='72923' x='1231' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98062' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='969'>
+              <zone h='8838' id='8' name='Off Yards Per State' pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' type-v2='color' w='24615' x='74154' y='969'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='64' h='8717' id='10' is-fixed='true' name='Win % by State' pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]' type-v2='color' w='24615' x='74154' y='9807'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='17' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49031' id='3' is-fixed='true' name='Off Yards Per State' w='72923' x='1231' y='969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8838' id='8' name='Off Yards Per State' pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' type-v2='color' w='24615' x='74154' y='969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49031' id='9' is-fixed='true' name='Win % by State' w='72923' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='64' h='8717' id='10' name='Win % by State' pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]' type-v2='color' w='24615' x='74154' y='9807'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7B098A35-F02D-4E3F-BB15-FEEB8289287A}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Problems and Code'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='41767' id='3' type-v2='text' w='97538' x='1231' y='57264'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='16'>Problems</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='16'>:</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Record</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- FCS Teams</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- No state or school names</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Two schools named Miami</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Too much data</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- No winning %</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='56295' id='5' is-scaled='1' param='C:/Users/jttyl/OneDrive/Pictures/Screenshots/Screenshot 2024-09-18 200148.png' type-v2='bitmap' w='97538' x='1231' y='969'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='10' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='56295' id='5' is-fixed='true' is-scaled='1' param='C:/Users/jttyl/OneDrive/Pictures/Screenshots/Screenshot 2024-09-18 200148.png' type-v2='bitmap' w='97538' x='1231' y='969'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='41767' id='3' type-v2='text' w='97538' x='1231' y='57264'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#4e79a7' fontsize='16'>Problems</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='16'>:</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Record</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- FCS Teams</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- No state or school names</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Two schools named Miami</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- Too much data</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='14'>- No winning %</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{B6AE1EC3-B205-4E1B-BD08-465F6277F168}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Takeaways'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>Takeaways:</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Offense for the most part affected winning</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Location did not affect Offensive output or winning %</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Time of Possession did not really affect</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Turnover Rank affect</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Points are not factor</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Red Zone Rank is not a factor</run>
+              <run fontalignment='1'>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='98062' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>Takeaways:</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Offense for the most part affected winning</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Location did not affect Offensive output or winning %</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Time of Possession did not really affect</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Turnover Rank affect</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Total Points are not factor</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#4e79a7' fontsize='12'>- Red Zone Rank is not a factor</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CED2FF7E-298A-4321-8F4D-492EA4BBCBC7}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Title'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='49031' id='3' type-v2='text' w='97538' x='1231' y='969'>
+            <formatted-text>
+              <run fontalignment='1' fontsize='14'>What Makes a Successful Offense?</run>
+              <run fontalignment='1'>Æ&#10;&#10;</run>
+              <run fontalignment='1' fontsize='14'>By: Jackson Tyler</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49031' id='9' param='C:/Users/jttyl/Downloads/CFP Capstone Picture.png' type-v2='bitmap' w='97538' x='1231' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='14' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone forceUpdate='true' h='49031' id='3' type-v2='text' w='97538' x='1231' y='969'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='14'>What Makes a Successful Offense?</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontsize='14'>By: Jackson Tyler</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49031' id='9' is-fixed='true' param='C:/Users/jttyl/Downloads/CFP Capstone Picture.png' type-v2='bitmap' w='97538' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{092AD8DB-CFF6-4146-8C9F-29C72856F965}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='30'>
+    <window class='dashboard' maximized='true' name='Capstone Presentation'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{A23296D3-902C-46D1-AEEF-26404211D570}' />
+    </window>
+    <window class='dashboard' name='Background'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{B6CBB491-4898-4C3F-BB47-AD545850C604}' />
+    </window>
+    <window class='worksheet' name='Big Ten Yards Per Game'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' type='size' />
+            <card pane-specification-id='2' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Off Yards per Game:qk]' type='color' />
+            <card pane-specification-id='1' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Win Percentage:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F46AD74C-6750-41F3-8DEA-A30DD62B78DA}' />
+    </window>
+    <window class='dashboard' name='Map Dashboard'>
+      <viewpoints>
+        <viewpoint name='Off Yards Per State'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Win % by State'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{68CD261D-E976-45D4-BADA-3A4BB7F6E498}' />
+    </window>
+    <window class='worksheet' name='Time of Possession'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DAD11551-A57C-4449-8E99-4AC7CBE1CDF0}' />
+    </window>
+    <window class='worksheet' name='Turnover Rank'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C5F4E678-FE74-4358-B91C-BEA2293ACBEF}' />
+    </window>
+    <window class='worksheet' name='Win Percentage based off Pts and Red Zone Rank (Min. 500 PTs)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Redzone Off Rank:qk]' type='size' />
+            <card pane-specification-id='3' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[sum:Total Points:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A3FF80B3-3024-4181-8F23-4861E4BF634E}' />
+    </window>
+    <window class='dashboard' hidden='true' name='End'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{0C8A5813-7071-465D-928F-52B2506EC469}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Factors Observed'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{C47FFA07-BD99-4A75-8B30-43DEF928A76D}' />
+    </window>
+    <window class='dashboard' hidden='true' name='How the Class helped me'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{0646FF3D-75E7-404E-B484-8B0AA3511768}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Introducton'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{BDCB9381-B0E0-4FA9-8105-FB14095F665A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Off Yards Per State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Off Yards per Game:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{75B87598-B2E9-4AFB-BFFA-123224711409}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Problems and Code'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{D2E7253C-6877-4674-8E28-AC283A690EFA}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Takeaways'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{848998A4-00D5-433A-ADDA-9D893CBAEEAE}' />
+    </window>
+    <window class='dashboard' hidden='true' name='Title'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{F04D788E-C2FC-43A0-8709-46A78A43736E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Win % by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16xzjq00ucvo4j19ja68t139j7rj].[avg:Win Percentage:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F505E803-676F-46C4-ACF5-27D10641DEF1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Capstone Presentation' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAOr0lEQVR4nO3dSWxkd17A8e/bal9di+322tk6HRJmRkJiRIQGTlwQB4YTUiQkOHDhwAiJ
+      0wiR22gOcwAhkCIhIQ2nOXFCQghphglEk4CYnmSUXlLe2lWufXn16r16Gwe77Xa604vbHXf8
+      /31OTpXr//71XN/33r+q1NHiOI4RQlH6RU9AiIskAQilSQBCaRKAUJp57wff90/does6URR9
+      6RN6GjLH86HyHI8DmEwmp+5Ip9PMZrNz3+B5kjmeD5XnKJdAQmkSgFDaEwXQ7x5w48YN7Jl3
+      5g3t726z1bjDyH5wjH6/d+Zx72m323jjPjsHPdrt9gOny93tBo07t7C98InGG41Gzzynz+v1
+      +7j2kP7YeeA+ezzgxo0b9Ecnl6LnsV+e1kHzLtvbW3QH41O39/r9wx+CKe3e9Exjj3p9AmDU
+      77C1vY3nn76mP97G4+bYbgOHf/MvsrvdYKtxB9udM5u5p8YfjUZMe31c7lsDPMpCdRHbmTPp
+      tEmuV2jdadGd+pTyCWLPRs/ViP0ZeuSTKtdxhx229w5YXNnAtzu8/Pqv4nkeRsIi9D0+/O+P
+      KC1v4ttdrHQR/AlTL2Rtuf5EO+BhtGBOy45IaDHzMKTb7eB7Mxwf3rx+Dc9zMXWd5u4Wrf1d
+      VpdXcYwUWc0lnSuze/sTyFQopTR8LCJvgr/6Eu3dWwSJEnkrYuIGZM2QndaY3/ytt59s593H
+      cya02h6b9SI//slHLC0uUqzU8V2P1ZVFiiWbhWKG//3gv8jU1/DHB0TArY8/JlNZJoPDOEhQ
+      L+fodbvU6nUsfH7xWYvXNldIJ3S6IxvNzPDaS2tn2o+e56FpOv64xf/sd6nkNHzXJU5kmY6H
+      JJImc9/kJx9/RGV5Hc0bMw9jUpk8sTcmX1tjZbHCJ//3IUGiRFqbE+pJ8imdwWDKtcoCQ3vG
+      5sYG3YN99h0XU9OZRWAZMTc//gWZyjJfe+PVR+xHm50dl6k7ZzLs42ORTSeY9LvkK3WWV1aI
+      NZPNq6vs7W0RRxauMyUyLMqFLLdu3mKlVsWeTk7OAI7z4FHp8xKmxu7OXUJg6coa6XSKteUq
+      /tFBNZGv0mrcorZYo1JfZrG2QHVxmXTSxEykSFkW82mPVHmJOJxTrtTIZpJkcwV8zz3TH+ye
+      aq1IrzuC0EFP5ADI5ApUysXDuaVybL5yjVIuyer6VYrZJKtrq+hooEG+WGZtZYlcoUy5mKVU
+      LgE+ISkSRkwUx8QxmMk0L7989UzXjpqZZLVWpD2wWV5ZY3l1nf7dLapLJ+GHsxFGoY4W+eRz
+      eVzPpViusbJUxw8hmTBgblOv1Rg6IRPHpZjPsrxY5m7X4Uq9yng0OPuONCzWNzZZri2wvLqG
+      oR3NXdOI4hhD14mJKdeWWapXKFdrLJTLFHMZqrUa/V4PmB/vt3xxgVI+SxhFaNrhYCkTtra2
+      mQeHZ4A4CokBDY6f62PnuL5OLpU4vsnUQsr1Ot3+BFODuWuzvbVFOl8GYsIoRtM1dDNJMZ8B
+      DFbWN9DufReo/7nTj8rvDDxM52Af2424urH6VI975BxDn91Wj7WVpWeenzMZMgsNKqX8Uz9W
+      5b/1057FlVVbvELtvAc1rHN58QNk8iUy5zKSWi7Nu0C2PXn8LwH2xD713912k/F4yP5BD0KX
+      27c/o907uYS4/6gTeC7Bi/15kRLuvUFx/xsVn3/Ton9wF8ePGXWbjJzDD3kD1+Gzzxp44ckX
+      oC/NGWA06NNttyhVlxkNOmTTafpjl+V6md5gQD6XYzicoBkm2bTJna19stkMd+/epZRKYy0u
+      QeSRyFZw7CG7kwGhniSTshj1u0xsj4QxZ56qkQ5tUvkFqgvFi37aShoNeofv5LhzZvYYLzbQ
+      4hDHHjF1fDZfeZl5GDPrtNGcDp5nMehMD9d3WQvXD0kahy/9S3MG0E2LpXqZ5l4Lb+7SG81I
+      miH7O3vYXog3GZCrLmPpGv5sRKa8yHzusVivU6tUqNUqAHRa+9QWlwnR0WIf1/VAt6gXciRz
+      OSrVCslkkvFk/JgZiefmvkVws9kkjg6P6LFuUcqYuCGgmcT+BD2RxRn1GDk+cRxjZooUUyfH
+      /UtzBlgoFeiNZ7x+bYOD7oBSIUe/P2T1jZfotvYp1ZYY9dtU6jUSqSSJdovKlVXi0MfUdDQA
+      I8uvvPEqqaRJXC4SGkmSpo6u6ehALmHQ7fRJJRNUcnLFfVHqtcPVWK1eZ6FUwA11sukEB809
+      rEKVnAmJhQWiMI+VTFCKdMa9A/K5LHF4+jtv8i7QcyZzPB/yXaAzmntzIGJ/d4fx9PQOjAIP
+      Pzz8FHZnZwfH9R8+yJHm3g4j+8HPS+6NI756Ls0lkGOPaHdHVBYK9IdDFqpLDDst/Njgpc0l
+      wtii32mjBXkGE5dqMUtrr0Fh4+tUC2Wmtk0YuDQaeywtVtk/6FNeWGA+HWKli1TKBYIYht02
+      elCgP3Ep5RIMhxMqxSQ2RXJpi1w68fjJihfGpTkDuDOX+aRDs+dyZX2F3tYtMvV1MkkLgPb+
+      Fj4mzWYTf+bSGdusXVk8fKw9gmSB4WDI5tV1ursNMgtX8KZtmq3x8am319rFDXVmsxn9ToeJ
+      57OxmKc/DbjT2CGTkhf/V82lOQMYpkEyWyRbyqGjU13doHewQyZfBHReuf4mge+h5+tMHJ9S
+      LkVzMKC6AqPuBM+PKBYKbDV2WFq7SqDrYNSpBz2SqRQAV197kzDwCcOAQrFIPpcDy6BYsKhU
+      FxlPppQK2YvdEeKpyCL4OZM5ng9ZBD9OHDEaTY4/ERwOhw/dYaHvHi94e50D5kHEdDw8XiD3
+      Oi06/SG9TuvUwng8GiH/gNLlc2kC6Lb2sTJZbt++TeiNudm4y3w+Z9Bt02hsExy9envNJoFu
+      YQYjXNI07+7RHQwZdA8AcGZzgvGQXG0JNI14PmV7r0k2pbN/8AzfshQvpEsTgONHZCydWjHF
+      Lxtd6pUC49EYz49YzCeYBoe/V1vbZKNeZKuxQyKdwTR0DNPEPPpo3J4M8c0E95azURwRBz4k
+      84TzJ/u+kfjquDSL4HIuxcB2WVhaJzl1SB0tXA3dwDJiCF1cLEJ3Qqc7YPW1t+i1dsmX6/jO
+      iNBIAnBldYNi8fA7PsVCAV2P0XQdd9Qhkz/374OKC3apFsGu6x6/8M/bWcf+Ku7HF5Esgp/A
+      83rxP++xxcW5VAEI8bQkAKG040WwaZ5eD+u6/sBtLxqZ4/lQeY6a/A8yxMM4jsOnn376wi+O
+      n9WLnb24MLu7u+zt7V30NJ47CUA81Nra2f5hra8auQQSSpN3gYTSJAChNAlAKE0CEEqTAITS
+      JAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0C
+      EEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJACh
+      NAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqT
+      AITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlA
+      KE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITS
+      JAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0C
+      EEqTAITSJAChNAlAKE0CEEqTAITSlA8gGH5AOOs+0xhxOMTr/PScZiS+TOZFT+DLYt/4E6Lg
+      9G3pV94lHH2AXihhpKtnHzwcMu++T7L29rNN8lGbGL3PrP1zcq/+6XPbhoqUOQPk3nqPwjfe
+      w0jlyVz/AYVvvIeVv3J8f+S1CKbbxPHRDXFEONsmsG8Shd7RbT6B3SCOA8LpbaL58MENxQGB
+      /Snx0UBxNCOwP+N42NAmdPZOtjG9Q+jsH2839vuEbvfU9k5o57IvxAllzgCPMm/+kLmeIPY7
+      WLXfJ7X0Ldy9fyCwO2iGQegOyL7+LoY5w7n9A/RkGc1IEs6aZK9/79RRxGv+M2FUIZO7BoCm
+      mbjbf0Pq6ncxMwsEvX8j8DOkUhVmt79HFOoQT9FSb5K5+g7h+GfMHY/M2u9BPMZp/COFt95F
+      M9JoRvpidtAlJgEA1uK3SVa+RjD4d7zh4dE5ufLHJOZdIn/C/OBHBHYDo7QEepbste+i6Saz
+      239N5A3RkxBHDvP2v+BPbbKvvHMyuGaRqL7NvPdTzMzv4g8+IrH+F4Sj94mNTbKv/hHg49z8
+      K4Jp8wuP8ZqZRTNzz3tXKEeZS6BH0fTU0U/3dkeMt/N3uM1/PbycCT2Iw6NfttD0o+OGZpwM
+      EnSZd36MVf4mmnb6ZWxVvkU4/E8id5uIKka6RDQfoGfW0TTQNAsjvUo0733xJI0cmpE9l+cr
+      TkgAD+Xij/dIrf0hico30XTrsY/QEutkX/tL/PaPCJzO6fvMGlZ+EWf7h5jl30ADjMw6wfBn
+      RL5D5O0TjG9jpNcAiIMxcRwS2LdOxrCukF75nXN9lkIC+AJpEgvXsW/8GU7jn3jS3aRZNTKb
+      7zDb+lsi3z11n1X9bSKnhbXwdQCM/K+RKK5if/Id7E+/j1X/A8x0ET13nWj6IZOffwd/+Mvj
+      xweD/8C+9ffn9gzFIS2Oj9/3uLQir4vff/9C5xCHA/zhTRKVX3+mcYzcNcz8tXOalVAigIs2
+      a3yfwJmQefnPMVLli56OuI8EIJQmawChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJACh
+      NAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqT
+      AITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlA
+      KE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEr7f7WmAe3xQMgTAAAAAElFTkSu
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
